@@ -1,7 +1,7 @@
-function toggleMenu() {
-    const menu = document.querySelector('.menu');
-    const register = document.querySelector('.register');
-    menu.classList.toggle('show');
-    register.classList.toggle('show');
-}
+var big_wrapper = document.querySelector(".big-wrapper");
+var hamburger_menu = document.querySelector(".hamburger-menu");
 
+// Add click event to toggle menu visibility
+hamburger_menu.addEventListener("click", () => {
+  big_wrapper.classList.toggle("active");
+})
