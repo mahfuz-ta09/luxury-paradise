@@ -83,7 +83,10 @@ body {
   }
   
   .overlay {
-    display: none;
+    /* display: none; */
+    /* position: absolute;
+    width: 100%; */
+
   }
   
   .logo {
@@ -459,6 +462,7 @@ body {
 .div-part img{
     border-radius: 7px;
     width:100%;
+    display: block;
 }
 
 .overlay{
